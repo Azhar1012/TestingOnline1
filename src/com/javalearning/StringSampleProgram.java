@@ -28,11 +28,11 @@ public class StringSampleProgram {
         System.out.println(t1.equalsIgnoreCase(t4));//false because content is not same  
         
         // String is empty
-//        String s1="";  
-//        String s2="department";  
-//          
-//        System.out.println(s1.isEmpty());  
-//        System.out.println(s2.isEmpty());  
+        String s1="";  
+        String s2="department";  
+          
+        System.out.println(s1.isEmpty());  
+        System.out.println(s2.isEmpty());  
         
         // Check if the string starts with a prefix
         boolean startsWithQA = text.startsWith("QA");
