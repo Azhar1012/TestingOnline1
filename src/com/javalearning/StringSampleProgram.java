@@ -28,7 +28,7 @@ public class StringSampleProgram {
         System.out.println(t1.equalsIgnoreCase(t4));//false because content is not same  
         
         // String is empty
-        String s1=" ";  
+        String s1="";  
         String s2="department";  
           
         System.out.println(s1.isEmpty());  
@@ -65,7 +65,7 @@ public class StringSampleProgram {
         System.out.println(n1+66);//concatenating string with 66  
         
         // Split the string into an array using a delimiter
-        String mobiles = "iPhone,Oneplus,Motorola";
+        String mobiles = "iPhone,Oneplus,Realme";
         String[] mobilesArray = mobiles.split(",");
         System.out.println("mobiles array:");
         for (String mobile : mobilesArray) 
