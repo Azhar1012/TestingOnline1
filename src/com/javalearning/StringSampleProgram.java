@@ -72,9 +72,10 @@ public class StringSampleProgram {
         System.out.println(mobile);
      
         
-        // Check if the string contains a substring
-        boolean containsTest = text.contains("Testing");
-        System.out.println("Contains 'Testing': " + containsTest);
+
 	}
 
 }
+// Check if the string contains a substring
+//boolean containsTest = text.contains("Testing");
+//System.out.println("Contains 'Testing': " + containsTest);
